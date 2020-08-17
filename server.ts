@@ -8,6 +8,6 @@ app.use(oakCors()); // Enable CORS for All Routes
 app.use(router.routes());
 app.use(router.allowedMethods());
 
-console.log(`Server running on port ${port}`);
+console.log(`Server running on port : ${port}`);
 
 app.listen({ port });
